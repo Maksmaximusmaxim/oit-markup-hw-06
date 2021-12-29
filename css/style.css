@@ -1,0 +1,2197 @@
+body{
+   
+    font-family: 'Roboto', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-a:#2196F3 ;
+    --color-b: #757575;
+    --color-c:#2F303A ;
+    --color-d:#FFFFFF ;
+    --colo-ir:#2dce50 ;
+    --color-f:#8178b9 ;
+    --color-g:#E5E5E5 ;
+    --color-k: #F5F4FA;
+    --color-l:  rgba(255, 255, 255, 0.6);
+    --color-m:#188CE8;
+}
+
+h1,h2,h3,h4,h5,h6,ul,a,p,li{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+
+
+.list{
+    list-style: none;
+}
+.nigniya-nas{
+    color: var(--color-b);
+}
+.nogi{
+    background: var(--color-c);
+}
+.logo{
+    color: var(--color-a);
+}
+
+.adres{
+    color:var(--color-d);
+    font-style: normal;   
+}
+.studio1{
+    color: var(--color-c);
+}
+.dannie list{
+    color:var(--color-d);
+}
+.pochta , .nomer{
+ color: var(--color-b);
+}
+
+
+
+.portfolio :active{
+    color:var(--color-a);
+}
+.vse{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.vse :hover{
+    color:var(--color-a);
+}
+.name{
+    cursor: pointer;
+}
+
+.lfz{
+ background: var(--color-k);
+}
+
+.nadpis{
+    color: var(--color-d);
+}
+.knopka-hero{
+    background:var(--color-a);
+    color: var(--color-d);
+}
+.fon-ludei{
+    background: var(--color-d);
+}
+.pochta{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pochta:hover{
+    color:var(--color-a);
+
+}
+.nomer{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nomer:hover{
+    color:var(--color-a);
+}
+.pochta3{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.pochta3:hover{
+    color:var(--color-a);
+}
+.nomer4{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nomer4:hover{
+    color:var(--color-a);
+}
+.pochta3{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pochta3{
+color: var(--color-b);
+}
+.nomer4{
+    color: var(--color-b);
+}
+.name{
+background: var(--color-k);
+color: var(--color-c);
+}
+.name{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.name:hover{
+background: var(--color-a);
+color: var(--color-d);
+}
+
+.portfolio{
+    color: var(--color-c);
+}
+.kontakt{
+    color: var(--color-c);
+}
+.st{
+    color: var(--color-d);
+}
+.pochta1{
+    color: var(--color-b);
+}
+.nomer1{
+    color: var(--color-b);
+}
+
+.name{
+    cursor: pointer;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+}
+.podpis{
+    font-size: 16px;
+line-height: 1.18;
+font-weight: normal;
+color: var(--color-b);
+}
+.pd{
+    font-size: 18px;
+line-height: 2;
+font-weight: bold;
+color: var(--color-c);
+}
+.ps{
+    font-size: 16px;
+line-height: 1.87;
+font-weight: normal;
+color: var(--color-b)
+}
+.pochta3{
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nomer4{
+    font-size: 14px;
+line-height: 1.14;
+}
+.name{
+    font-size: 16px;
+line-height: 1.62;
+}
+
+p{
+    font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+.pochta, .nomer{
+    font-size: 14px;
+}
+
+.nadpis{
+    font-size: 44px;
+line-height: 1.36;
+font-weight: 900;
+}
+h3{
+    font-size: 14px;
+line-height: 1.14;
+
+
+
+}
+.knopka-hero{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    font-family: inherit ;
+
+    padding: 10px 32px;
+}
+.text{
+    font-size: 14px;
+line-height:1.14;
+font-weight: normal;
+}
+
+h2{
+    font-size: 36px;
+line-height: 1.16;
+font-weight: bold;
+}
+.g{
+    font-size: 36px;
+line-height: 1.16;
+font-weight: bold;
+}
+h3{
+    font-size: 16px;
+line-height: 1.18;
+font-weight: 500;
+
+}
+
+
+.text{
+    color: var(--color-b);
+}
+
+
+
+
+.logotip{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.menu{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.silki{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.dannie{
+    font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+
+
+
+
+
+
+
+
+
+
+
+.studias{
+    color: var(--color-c);
+}
+
+
+.studias{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.studias:hover,
+.studias:focus 
+.studias:active
+.studias:visited{
+    color: var(--color-a);
+}
+
+.portfolio{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio:hover,
+.portfolio:focus 
+.portfolio:active
+.portfolio:visited
+{
+    color:var(--color-a) ;
+}
+.kontakt{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.kontakt:hover,
+.kontakt:focus 
+.kontakt:active
+.kontakt:visited
+{
+    color: var(--color-a) ;
+    
+}
+
+
+
+.first-page{
+    color: var(--color-a);
+    position: relative;
+}
+.second-page{
+    color: var(--color-a);
+    position: relative;
+}
+.tretya-page{
+    color: var(--color-a);
+}
+.nomer1 , .pochta1{
+    color: var(--color-l);
+}
+.knopka-hero{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.knopka-hero:hover ,
+.knopka-hero:focus{
+ color: var(--color-d);
+ background: var(--color-m) ;
+}
+.zagalovki ,.nadpis{
+    text-transform: uppercase;
+}
+.pochta1 ,.nomer1{
+    font-style: normal;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+.dannie{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.logotip{
+   margin-top: 0px;
+   margin-bottom: 0px;;
+}
+.adres{
+    margin-top: 20px;
+}
+.nogi{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.nadpis, .knopka-hero{
+    text-align:  center ;
+}
+.knopka-hero{
+    display: inline-block;
+}
+.fon-ludei{
+    width: 270px;
+   
+   
+    
+}
+
+.ludi{
+    display: flex;
+}
+.fotki{
+    display: flex;
+    
+}
+
+.primeri-rabot{
+   
+    width: 370px ;
+    height: 294px ;
+}
+.menu , .silki{
+    display: flex;
+}
+.silki .vmeste + .vmeste{
+    margin-left: 50px;
+}
+.menu .vmestea + .vmestea{
+    margin-left: 50px;
+}
+.logotip{
+    margin-right: 93px;
+}
+.vmestea{
+    display: block;
+}
+.zbros{
+    padding-left: 0px;
+}
+.ludi .fon-ludei + .fon-ludei{
+    margin-left: 30px;
+}
+.fotki .primeri-rabot + .primeri-rabot{
+    margin-left: 30px;
+}
+.fotki{
+    padding-left: 0px;
+}
+.podpis{
+    text-align: center;
+}
+
+.imia{
+    text-align: center;
+}
+.silki .pochta3 + .nomer4{
+    margin-left: 50px;
+}
+.for-center{
+    text-align: center;
+}
+
+.name{
+    padding: 6px 22px;
+    
+}
+
+
+.for-otstyp{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+.for-otstyp .knopki-portfolio + .knopki-portfolio{
+    margin-left: 8px;
+}
+.ophaya-tabl{
+    width: 370px; ;
+   
+}
+
+.zagalovki{
+    
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.zbros{
+    display: flex;
+    margin: 0px;
+}
+.zbros .perechislenie + .perechislenie{
+    margin-left: 30px;
+}
+
+.nadpis{
+ 
+   margin-bottom: 40px;
+   margin-top: 0px;
+}
+.fon-ludei{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.obnylenie{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.twoinone{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+verhniy-box{
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+
+.z{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.j{
+padding: 0px;
+}
+
+.j{
+    margin-left: auto;
+}
+.logotip{
+    margin-right: 0px;
+}
+.menu{
+    padding-left: 0px;
+   
+}
+
+
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+  
+}
+
+.nahi-roboti{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-top: -30px;
+
+}
+.nahi-roboti  .ophaya-tabl{
+flex-basis: calc(100%/3 - 30px) ;
+margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+
+.silki{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+  
+}
+.menu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.first-header , .second-header{
+    border-bottom: 1px solid #ECECEC;
+}
+.section{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+
+.section{
+    margin: 0px;
+}
+.obrez{
+    padding-top: 0px;
+}
+.zagalovki-otstyp{
+    margin: 0px;
+}
+.as{
+    margin: 0px;
+}
+
+
+
+
+.bgcolor-hero{
+    background: var(--color-c);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.pr{
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+}
+.opisanie-ludey{
+    padding-top: 30px;
+    padding-bottom:30px ;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.imia{
+    margin-bottom: 10px;
+}
+.pd{
+    margin-bottom: 4px;
+}
+.nomer-one{
+    margin-top: 9px;
+}
+
+.otstyp-v-hedere-ot-logo{
+    margin-left: 93px;
+}
+.studias ,.portfolio ,.kontakt{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+.nadpis{
+   
+    text-align: center;
+}
+.perechislenie{
+    width: 270px;
+}
+.hfl{
+    margin-top: 9px;
+}
+.class-silki-na-kart-prob{
+    transition-property: box-shadow  ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.class-silki-na-kart-prob:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.stilizasia-texta{
+    font-weight: 700;
+    size: 36px;
+    line-height: 1.17;
+}
+
+
+
+
+
+.silki-na-soseti-tovarishei{
+    width: 44px;
+}
+
+   
+
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
+.otstyp-botton-ot-icon{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.iconki-main-top{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.obertka-iconki-main-top{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.iconki-main-top .obertka-iconki-main-top + .obertka-iconki-main-top{
+    margin-left: 30px;
+}
+.iconki-main-top{
+    margin-bottom: 30px;
+}
+
+.sami-iconki-main-top{
+    height: 70px;
+}
+
+.obertka-iconki-main-top{
+    width: 270px;
+    height: 120px;
+
+}
+.otstyp-nadpis{
+    margin-bottom: 50px;
+}
+
+.obertka-footer-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+
+}
+.footer-icon .obertka-footer-icon + .obertka-footer-icon{
+    margin-left: 10px;
+    
+}
+
+.footer-icon{
+    display: flex;
+    margin-top: 20px;
+}
+.sami-obertka-footer-icon{
+   
+    width: 20px;
+    height: 20px;
+}
+.otstypi-kryjkov{
+    display: flex;
+}
+.soseti-ludey{
+    display: flex
+}
+.soseti-ludey-obolochka{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+}
+
+.soseti-ludey .soseti-ludey-obolochka + .soseti-ludey-obolochka{
+    margin-left: 10px;
+}
+.sami-foto-soseti-ludey{
+    background-position: center;
+}
+.obertka-iconki-main-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soseti-ludey-obolochka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soseti-ludey{
+    margin-top: 16px;
+}
+/*.icon-main-bottom{
+    
+}*/
+
+.razmer-logotipa{
+    fill: #AFB1B8;
+}
+
+
+.obertka-footer-icon{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+}
+.nogi-otstypi{
+    display: flex;
+   
+}
+.nogi-otstypi  .rebenok + .rebenok{
+    margin-left: 70px;
+}
+.otstyp-botton-ot-icon{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.convert{
+    margin-right: 10px;
+    fill:  #757575;
+}
+.convert{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pochta:hover .convert , .pochta:focus .convert{
+    fill: var(--color-a);
+    
+}
+.nomer:hover .tel{
+    fill: var(--color-a);
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.obertka-footer-icon{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.obertka-footer-icon:hover , .obertka-footer-icon:focus{
+    background-color: #2196F3;
+    
+}
+.sami-foto-soseti-ludey{
+    color:#AFB1B8 ;
+}
+.soseti-ludey-obolochka{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soseti-ludey-obolochka:hover , .soseti-ludey-obolochka:focus{
+    background: var(--color-a);
+}
+.sami-foto-soseti-ludey{
+    color: #FFFFFF;
+}
+
+
+
+.dlia-rozdeleniya-klientov .icon-main-bottom + .icon-main-bottom{
+    margin-left: 30px;
+}
+
+
+.sami-foto-soseti-ludey{
+    fill: #AFB1B8;
+}
+.sami-foto-soseti-ludey{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sami-foto-soseti-ludey{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sami-foto-soseti-ludey:hover{
+    fill: var(--color-d) ;
+}
+
+
+
+
+.bgcolor-hero{
+    background-image:  linear-gradient(  to right , rgba(47, 48, 58, 0.4) ,  rgba(47, 48, 58, 0.4)) , url(../img/Img.jpg) ; 
+    max-width: 1600px ;
+  
+}
+
+.tel{
+    fill:   #757575;
+}
+
+.pochta{
+    display: flex;
+    align-items: center;
+}
+.nomer{
+    display: flex;
+    align-items: center;
+}
+
+.tel{
+    margin-right: 10px;
+}
+
+
+
+.zagalovki{
+    font-weight: 700;
+size: 14px;
+line-height: 1.17;
+}
+.obertka-iconki-main-top{
+    margin-bottom: 30px;
+}
+.soseti-ludey-silki{
+    width: 100%;
+    height: 100%;
+}
+
+.sami-foto-soseti-ludey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.silka-na-brend{
+    width: 170px;
+    height: 92px;
+}
+
+.stili-in-footer{
+    font-weight: 700;
+    size: 14px;
+    line-height: 1.17;
+    color: var(--color-d) ; 
+    align-items: baseline;
+}
+.hbh{
+    align-items: baseline;
+}
+.name{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.name:hover{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:focus {  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:active{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:visited{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.soseti-ludey-silki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soseti-ludey-silki:hover .sami-foto-soseti-ludey{
+    fill: var(--color-d) ;
+}
+
+.name:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+.stili-in-footer{
+    font-weight: 700;
+    size: 14px ;
+    line-height: 16,41px;
+}
+.soseti-ludey-silki:hover{
+    fill: #FFFFFF;
+}
+.prisoedinis{
+    font-weight: bold;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nogi-otstypi{
+    align-items: baseline;
+}
+.name:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.class-silki-na-kart-prob:hover .kard{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
+.class-silki-na-kart-prob:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+.class-silki-na-kart-prob:focus .kard{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+.knopki-portfolio{
+    border-radius: 4px;
+}
+.bgcolor-hero{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    border-radius: 4px ;
+    border: solid transparent;
+}
+
+.icon-main-bottom{
+   /* border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;*/
+    width: 170px ;
+    height:  92px;
+     display: flex;
+        justify-content: center;
+        align-items: center; 
+        cursor: pointer;
+}
+.silka-na-brend{
+    transition-property: border ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.silka-na-brend:hover{
+    border: 1px solid var(--color-a);
+    border-radius: 4px;
+}
+.razmer-logotipa{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-main-bottom:hover .razmer-logotipa{
+    fill: var(--color-a) ;
+}
+.silka-na-brend{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.seriy-bg{
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    bottom: 0;
+}
+.foto-and-text{
+    position: relative;
+}
+.text-pod-foto{
+    font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color:  var(--color-d);
+text-transform: uppercase;
+text-align: center;
+justify-content: center;
+display: flex;
+
+}
+
+.backdrop{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal{
+    width: 528px ;
+    height: 581px;
+    background:  var(--color-d) ;
+    position: absolute;
+   top: 50%;
+  
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+    
+}
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.zakrit{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.zakrit{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 8px;
+   top: 8px;
+}
+.zakrit{
+    background-color: var(--color-d)  ;
+}
+.first-page::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+border-radius: 2px;
+bottom: 0;
+right: 0;
+}
+
+.second-page::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+border-radius: 2px;
+bottom: 0;
+right: 0;
+}
+.seriy-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerstextom{
+    background: var(--color-a)  ;
+}
+.textnaportfolionakartochki{
+    color: var(--color-d) ;
+    font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+.textnaportfolionakartochki{
+    width: 322px;
+    height: 168px ;
+    letter-spacing: 0.03em;
+}
+.containerstextom{
+    width:370px ;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.kard{
+    position: relative;
+}
+.containerstextom::before{
+    transform: translate(100%);
+}
+.knopka-zakritia{
+    fill: #000000;
+    
+}
+.containerstextom{
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.class-silki-na-kart-prob:hover .containerstextom{
+    transform: translate(0%);
+}
+
+.overflo{
+    position: relative;
+    overflow: hidden;
+}
+.silki-na-sami-obertka-footer-icon{
+    width:  44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.silki-na-sami-obertka-footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    transition-property: background , color , box-shadow ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop{
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
+}
+.fat-text{
+    font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+margin-bottom: 12px;
+display: block;
+}
+.textarea{
+    resize: none;
+}
+.otpravit{
+    padding: 10px 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background-color: #2196F3 ;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+border-color: transparent;
+margin-top: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+.otstyp-modal{
+    padding: 40px;
+}
+.box-forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-nad-input{
+    width: 100%;
+    display: block;
+}
+.input{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+width: 100%;
+height: 40px;
+border-radius: 4px;
+
+}
+.textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+margin-top: 4px;
+padding: 0px;
+
+}
+.podpiska{font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.button-in-footer{
+    background-color:  #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+color:  #FFFFFF;
+}
+.input-footer{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    
+}
+
+.input{
+    margin-top: 4px;
+    display: block;
+    padding: 0px;
+    
+}
+.text-nad-input{
+    font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #757575;
+}
+.group{
+    margin-top: 20px;
+}
+.coment{
+    font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.form .text-nad-input + .text-nad-input{
+    margin-top: 10px;
+}
+.text-nad-input{
+    position: relative;
+}
+
+.input{
+    padding-left: 42px;
+}
+.textarea{
+    padding: 12px 16px;
+}
+.silka-na-soglasie{
+    color: #2196F3;
+    text-decoration: underline;
+}
+.otpravit{
+    margin-right: auto;
+    margin-left: auto;
+}
+.button-in-footer{
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+padding: 10px 28px;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+border-color: transparent;
+color: #FFFFFF;
+}
+
+
+
+.input-footer{
+    padding: 15px 16px;
+    background-color:  transparent ;
+    width: 100%;
+}
+.button-in-footer{
+    display: flex;
+}
+.samolet{
+    margin-left: 10px;
+}
+.button-in-footer{
+    justify-content: space-between ;
+    margin-left: 20px;
+}
+.samolet{
+    fill: #FFFFFF;
+}
+.input{
+    transition-property: border-color  ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.input:focus{
+    outline: none;
+    border-color: #2196F3;
+
+}
+
+.textarea{
+    transition-property: border-color  ;
+transition-duration: 250ms ;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea:focus{
+    outline: none;
+    border-color: #2196F3 ;
+}
+
+
+
+
+.rassilka-pisem{
+    display: flex;
+    margin-top: 20px;
+}
+.group{
+    align-items: center;
+}
+
+
+
+
+.input-footer{
+    width: 358px;
+}
+.prinatie-yvedomleniy{
+   margin-left: auto;
+}
+
+.input:focus ~ .icon-in-modal-window{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus ~ .icon-in-modal-window{
+    fill: var(--color-a);
+
+}
+
+
+
+.icon-in-modal-window{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    
+}
+.input-footer{
+    transition-property: border-color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-footer:focus{
+    outline: none;
+    border-color: #2196F3;
+}
+.button-in-footer{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-in-footer:hover{
+    background: #188CE8;
+}
+.button-in-footer{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-in-footer:focus{
+    background: #188CE8;
+}
+
+
+
+.zakrit:hover  .knopka-zakritia{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.zakrit:hover  .knopka-zakritia{
+    fill: #2196F3;
+
+}
+
+.zakrit:focus  .knopka-zakritia{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.zakrit:focus  .knopka-zakritia{
+    fill: #2196F3;
+
+}
+
+
+
+
+
+
+
+.knopka-hero{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: transparent;
+}
+
+.otpravit{ transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+.otpravit:hover{
+    background: #188CE8;
+}
+.otpravit:focus{
+    background: #188CE8;
+}
+
+.icon-galochka{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121  ;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 7px;
+    
+}
+.checkbox:checked + .icon-galochka{
+    background-image: url(../img/checkboxinka.svg );
+    background-size: contain;
+    background-origin: border-box;
+    border-color: transparent;
+}
+.checkbox{
+    appearance: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.coment{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
