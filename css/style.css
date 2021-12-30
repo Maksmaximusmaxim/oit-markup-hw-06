@@ -1559,6 +1559,11 @@ border-color: transparent;
     align-items: center;
     justify-content: center;
 }
+.zakrit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
