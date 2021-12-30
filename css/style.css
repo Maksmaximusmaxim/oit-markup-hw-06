@@ -1257,11 +1257,7 @@ display: flex;
 .otstyp-modal{
     padding: 40px;
 }
-.box-forma{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .text-nad-input{
     width: 100%;
     display: block;
@@ -1555,7 +1551,14 @@ border-color: transparent;
     display: flex;
     align-items: center;
 }
-
+.input-footer{
+    color: #FFFFFF;
+}
+.zakrit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
